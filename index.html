@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="shortcut icon" href="assets/images/sennera-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="shortcut icon" href="./src/assets/images/sennera-favicon.ico" type="image/x-icon">
     <title>Sennera</title>
   </head>
   <body>
     <header>
       <div class="box-logo">
         <img
-          src="./assets/images/logo.png"
+          src="./src/assets/images/logo.png"
           alt="logo sennera"
           class="img-logo"
         />
@@ -19,10 +19,10 @@
       </div>
       <nav class="navbar">
         <ul>
-            <li class="btn-exit"><img src="assets/images/exit.svg" alt="" class="img-exit" onclick="toggleMenu()"></li>
-          <li><a id="scrollSobre" onclick="scrollToSection(2)">Sobre</a></li>
+            <li class="btn-exit"><img src="./src/assets/images/exit.svg" alt="" class="img-exit" onclick="toggleMenu()"></li>
+          <li><a id="scrollSobre">Sobre</a></li>
           <li>
-            <a id="scrollProduct" onclick="scrollToSection(3)">Produto</a>
+            <a id="scrollProduct"">Produto</a>
           </li>
           <li><a href="mailto:suportesennera@gmail.com">Contato</a></li>
           <li class="download-menu"><a href="https://drive.google.com/file/d/1MDi1j_PjkPlIbnfa26VeOozT4hqqVjte/view"
@@ -37,7 +37,7 @@
       >
 
       <div class="menu" onclick="toggleMenu()">
-        <img src="assets/images/menu.svg" alt="icon menu" class="icon-menu"/>
+        <img src="./src/assets/images/menu.svg" alt="icon menu" class="icon-menu"/>
       </div>
     </header>
 
@@ -63,7 +63,7 @@
 
         <div class="box-image-banner">
           <img
-            src="./assets/images/phoneGroupStart.png"
+            src="./src/assets/images/phoneGroupStart.png"
             alt="image smartphone app sennera"
             class="img-banner"
           />
@@ -109,7 +109,7 @@
 
         <div class="info-img">
           <img
-            src="assets/images/phoneVertical.png"
+            src="./src/assets/images/phoneVertical.png"
             alt="image app sennera"
             class="img-info"
           />
@@ -189,7 +189,7 @@
       </section>
 
       <div onclick="scrollToTop()" id="scrollToTopBtn">
-        <img src="assets/images/seta.svg" alt="return" class="img-return" />
+        <img src="./src/assets/images/seta.svg" alt="return" class="img-return" />
       </div>
     </main>
     <footer>
@@ -203,22 +203,22 @@
 
       <div class="box-img-footer">
         <img
-          src="assets/images/ccIcon.svg"
+          src="./src/assets/images/ccIcon.svg"
           alt="icon ciencia da computacao"
           class="img-footer"
         />
         <img
-          src="assets/images/uninassau.svg"
+          src="./src/assets/images/uninassau.svg"
           alt="icon uninassau"
           class="img-footer"
         />
         <img
-          src="assets/images/senneraLogoName.svg"
+          src="./src/assets/images/senneraLogoName.svg"
           alt="icon sennera"
           class="img-footer"
         />
       </div>
     </footer>
+    <script src="./src/js/ambiente.js"></script>
   </body>
-  <script src="./assets/js/ambiente.js"></script>
 </html>
