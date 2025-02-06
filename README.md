@@ -12,18 +12,21 @@ O site também apresenta a interface amigável e acessível do aplicativo, ofere
 - **Fontes e Imagens** → Fontes e imagens para personalização e design visual.
 
 ## 📂 Estrutura do Projeto
-
+``` bash
 /sennera-website  
-│── index.html          → Página principal do site  
-│── /src                → Pasta com arquivos principais do projeto  
-│   ├── /css            → Estilos do site  
-│   │   └── style.css   → Arquivo principal de estilos  
-│   ├── /js             → Scripts para interatividade  
-│   │   └── script.js   → Arquivo principal de lógica  
-│   └── /assets         → Imagens, fontes e outros recursos  
-│       ├── /fonts      → Fontes utilizadas no site  
-│       └── /images     → Imagens do site  
-└── README.md           → Documentação do projeto  
+│── index.html               → Página principal do site  
+│── /src                     → Pasta com arquivos principais do projeto  
+│   ├── /css                 → Estilos do site  
+│   │   ├── main.css         → Arquivo principal de estilos 
+│   │   ├── mediaQueries.css → Arquivo usado para resposividade
+│   │   └── reset.css        → Arquivo Arquivo para consistência e base limpa
+│   ├── /js                  → Scripts para interatividade  
+│   │   └── script.js        → Arquivo principal de lógica  
+│   └── /assets              → Imagens, fontes e outros recursos  
+│       ├── /fonts           → Fontes utilizadas no site  
+│       └── /images          → Imagens do site  
+└── README.md                → Documentação do projeto  
+```
 
 ### Descrição da Estrutura
 **index.html:** A página principal do site que exibe a missão, visão e funcionalidades do aplicativo Sennera.  
