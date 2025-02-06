@@ -22,8 +22,7 @@ O site também apresenta a interface amigável e acessível do aplicativo, ofere
 │   │   └── reset.css        → Arquivo Arquivo para consistência e base limpa
 │   ├── /js                  → Scripts para interatividade  
 │   │   └── script.js        → Arquivo principal de lógica  
-│   └── /assets              → Imagens, fontes e outros recursos  
-│       ├── /fonts           → Fontes utilizadas no site  
+│   └── /assets              → Imagens, fontes e outros recursos   
 │       └── /images          → Imagens do site  
 └── README.md                → Documentação do projeto  
 ```
