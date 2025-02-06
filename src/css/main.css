@@ -1,11 +1,7 @@
 @charset "UTF-8";
 @import url(./mediaQueries.css);
 @import url(./reset.css);
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf")
-    format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 
