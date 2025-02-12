@@ -3,18 +3,58 @@
 @import url(./reset.css);
 
 body {
-  background: rgb(47, 27, 82);
+  background: #2f1b52;
   background: linear-gradient(
     60deg,
-    rgba(47, 27, 82, 1) 15%,
-    rgba(212, 156, 255, 1) 100%
+    #2f1b52 15%,
+    #d49cff 100%
   );
   width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+html {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+.custom_scrollbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0.8rem;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.2s ease-in, opacity 0.2s ease 0.8s;
+}
+
+body:hover .custom_scrollbar {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.custom_thumb {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 30px;
+  cursor: pointer;
+  background-color: #8a5dad;
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom_thumb:hover {
+  background-color: #633984;
 }
 
 main {
